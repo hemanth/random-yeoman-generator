@@ -1,0 +1,53 @@
+#app, .next {
+	display: flex;
+	justify-content: center;
+}
+
+.next {
+	font-size: 30px;
+	padding: 10px;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.card {
+	font-size: 1rem;
+	padding: 10px;
+}
+
+.content {
+	overflow: auto;
+	height: 100%
+}
+
+.link {
+	color: #00BCD4;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3, h5 {
+	position: relative;
+}
+
+h3::before {
+	content: '\2B07 ';
+    font-size: 1.10rem;
+}
+
+h5::before {
+	content: '\2605 ';
+	font-size: 1.10rem;
+}
