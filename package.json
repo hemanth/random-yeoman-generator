@@ -4,12 +4,12 @@
     "start": "webpack-dev-server --content-base build/"
   },
   "dependencies": {
-    "css-loader": "^0.23.1",
+    "css-loader": "^4.0.0",
     "isomorphic-fetch": "2.2.1",
     "react": "0.14.7",
     "react-dom": "0.14.7",
     "react-material-card": "0.0.2",
-    "style-loader": "^0.13.1"
+    "style-loader": "^1.1.4"
   },
   "devDependencies": {
     "html-webpack-plugin": "1.6.1",
